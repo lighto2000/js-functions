@@ -15,6 +15,12 @@ const offset ={
         );
 
         return 'TOP:'+ offset[0] +'\n' + 'LEFT:' + offset[1] + '\n' +'WIDTH:'+ offset[2] +'\n' + 'HEIGHT:' + offset[3] ;
+    },
+    get_element_by_tag_name:function(tag_name,index){
+        var tag = document.getElementsByTagName(tag_name) ;
+
+        return tag[index]
+
     }
 }
 
