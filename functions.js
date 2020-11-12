@@ -24,3 +24,4 @@ const offset ={
     }
 }
 
+export {offset};
